@@ -190,7 +190,7 @@ class ThemesManager
     public function findByName(string $name, ?string $vendor = null): ?Theme
     {
         // normalize theme name
-        $name = str_replace(['-theme', 'theme-'], '', $name);
+        // $name = str_replace(['-theme', 'theme-'], '', $name);
 
         // Try to find vendor in name
         if (($pos = strpos($name, '/')) !== false) {
