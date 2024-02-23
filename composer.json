@@ -1,5 +1,5 @@
 {
-    "name": "hexadog/laravel-themes-manager",
+    "name": "zorca/laravel-themes-manager",
     "description": "Bring multi themes support to your Laravel application with a full-featured Themes Manager",
     "license": "MIT",
     "support": {
