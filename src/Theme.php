@@ -153,7 +153,7 @@ final class Theme
     public function setName(string $name): self
     {
         // normalize theme name
-        $name = str_replace(['-theme', 'theme-'], '', $name);
+        // $name = str_replace(['-theme', 'theme-'], '', $name);
 
         $this->name = basename($name);
         $this->setVendor($name);
